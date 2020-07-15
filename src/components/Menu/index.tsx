@@ -17,13 +17,13 @@ const Menu: React.FC = () => {
     <Container>
       <Logo />
       <MenuButtonContainer>
-        <DocumentButton name="document-button">
+        <DocumentButton name="document-button" aria-label="document-button">
           <Document />
         </DocumentButton>
-        <FolderButton name="folder-button">
+        <FolderButton name="folder-button" aria-label="folder-button">
           <Folder />
         </FolderButton>
-        <UploadButton name="upload-button">
+        <UploadButton name="upload-button" aria-label="upload-button">
           <Upload />
         </UploadButton>
       </MenuButtonContainer>
