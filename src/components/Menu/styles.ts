@@ -46,6 +46,8 @@ const buttonCSS = css`
   margin-top: 20px;
   margin-right: 20px;
   padding: 10px;
+
+  cursor: pointer;
 `;
 
 const iconCSS = css`
